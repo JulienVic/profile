@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;1,300&display=swap');
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 350px;
+  }
+}
+
+body {
+  background-color: #EEEEEE;
+  font-family: 'Open Sans', sans-serif;
+  color: #1b262c;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+h1{
+  color: #596e79;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  line-height: 25px;
+
+}
+
+img {
+  width: 100px;
+  height: 125px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #bbe1fa;
+}
+
+.container{
+  margin: 30px;
+  padding: 30px;
+  background-color: #DFD3C3;
+  text-align: center;
+  border-color: 4px solid #3b6978;
+  border-radius : 50px;
+}
+
+#home-page-first-image {
+  border-radius: 45%;
+}
+
+.card{
+  margin: 30px;
+  padding: 30px;
+  background-color: #DFD3C3;
+  text-align: center;
+  border-color: 4px solid #3b6978;
+  border-radius : 50px;
+}
+
+.skills_logo{
+  font-size: 50px;
+  color: #596e79;
+}
+
+.btn_bl{
+  box-shadow: 0px 10px 14px -7px #276873;
+  background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+  background-color: #596e79;
+  border-radius:8px;
+  cursor:pointer;
+  color: white;
+  font-family:Arial;
+  font-size:20px;
+  font-weight:bold;
+  padding:13px 32px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #3d768a;
+  width: 100px;
+  text-align: center;
+}
+
+.btn_bl:hover {
+  background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+  background-color:#408c99;
+}
+.btn_bl:active {
+  position:relative;
+  top:1px;
+}
+
+.center{
+  text-align: center;
+  align-items: center;
+}
+
+.social_color{
+  color: #596e79;
+  display: inline-block;
+  width: 400px
+}
+
+.ul_color{
+  color: #EEEEEE;
+}
+
